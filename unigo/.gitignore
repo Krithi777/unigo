@@ -1,0 +1,16 @@
+# Mobile
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+
+# Backend
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/.venv/
+backend/firebase-credentials.json
+
+# Common
+.env
+*.log
+.DS_Store

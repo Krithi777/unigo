@@ -1,0 +1,1 @@
+# Pydantic: UserCreate, UserOut, EmergencyContactUpdate
