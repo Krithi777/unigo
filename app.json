@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "UniGo",
+    "slug": "unigo-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "unigo",
+    "ios": { "supportsTablet": false },
+    "android": { "package": "com.unigo.mobile" },
+    "plugins": [
+      "expo-location"
+    ]
+  }
+}
