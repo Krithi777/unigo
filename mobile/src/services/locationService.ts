@@ -1,1 +1,0 @@
-// expo-location watchPositionAsync / getCurrentPositionAsync

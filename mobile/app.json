@@ -1,14 +1,30 @@
 {
   "expo": {
-    "name": "UniGo",
-    "slug": "unigo-mobile",
+    "name": "mobile2",
+    "slug": "mobile2",
     "version": "1.0.0",
     "orientation": "portrait",
-    "scheme": "unigo",
-    "ios": { "supportsTablet": false },
-    "android": { "package": "com.unigo.mobile" },
-    "plugins": [
-      "expo-location"
-    ]
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
   }
 }

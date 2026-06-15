@@ -1,1 +1,0 @@
-// POST /emergency/trigger (SOS)
