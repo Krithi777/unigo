@@ -1,8 +1,10 @@
-// Root app entry — wraps app in providers and renders RootNavigator
-// import { AuthProvider } from '@/context/AuthContext';
-// import { SocketProvider } from '@/context/SocketContext';
-// import RootNavigator from '@/navigation/RootNavigator';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import RootNavigator from './src/navigation/RootNavigator';
 
 export default function App() {
-  // return <AuthProvider><SocketProvider><RootNavigator /></SocketProvider></AuthProvider>;
+  return (
+    <SafeAreaProvider>
+      <RootNavigator />
+    </SafeAreaProvider>
+  );
 }

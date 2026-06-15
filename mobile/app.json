@@ -3,6 +3,7 @@
     "name": "UniGo",
     "slug": "unigo-mobile",
     "version": "1.0.0",
+    "sdkVersion": "54.0.0",
     "orientation": "portrait",
     "scheme": "unigo",
     "ios": { "supportsTablet": false },
